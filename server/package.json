@@ -1,0 +1,38 @@
+{
+  "name": "Readable_Reader_Server",
+  "version": "0.0.1",
+  "description": "The server DWA project Readable Reader",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev_start": "nodemon server.js",
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "De Madeliefjes",
+  "license": "",
+  "dependencies": {
+    "adm-zip": "^0.4.7",
+    "bluebird": "^3.1.1",
+    "body-parser": "^1.14.1",
+    "cheerio": "^0.19.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.13.3",
+    "express-session": "^1.12.1",
+    "fs-extra": "^2.0.0",
+    "fs-promise": "^0.3.1",
+    "lodash": "^3.10.1",
+    "mongodb": "^2.2.12",
+    "mongoose": "^4.1.8",
+    "request": "^2.79.0",
+    "request-promise": "^1.0.2",
+    "session-file-store": "0.0.24",
+    "superagent": "^3.1.0",
+    "zipfile": "^0.5.9"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "superagent": "^3.1.0"
+  }
+}

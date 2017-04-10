@@ -1,0 +1,112 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "epub",
+        "scope": null,
+        "escapedName": "epub",
+        "name": "epub",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\Users\\Sander Teunissen\\DWA-nj2016-P-ReadableReader-M\\server"
+    ]
+  ],
+  "_from": "epub@latest",
+  "_id": "epub@0.1.6",
+  "_inCache": true,
+  "_location": "/epub",
+  "_npmUser": {
+    "name": "julien-c",
+    "email": "chaumond@gmail.com"
+  },
+  "_npmVersion": "1.4.14",
+  "_phantomChildren": {
+    "nan": "2.1.0"
+  },
+  "_requested": {
+    "raw": "epub",
+    "scope": null,
+    "escapedName": "epub",
+    "name": "epub",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/epub/-/epub-0.1.6.tgz",
+  "_shasum": "8f8f9a938154f7461f6bc8e53fb21218156537c1",
+  "_shrinkwrap": null,
+  "_spec": "epub",
+  "_where": "C:\\Users\\Sander Teunissen\\DWA-nj2016-P-ReadableReader-M\\server",
+  "author": {
+    "name": "Andris Reinman"
+  },
+  "bugs": {
+    "url": "https://github.com/julien-c/epub/issues"
+  },
+  "contributors": [
+    {
+      "name": "andris",
+      "email": "andris@node.ee"
+    },
+    {
+      "name": "Julien Chaumond",
+      "email": "chaumond@gmail.com",
+      "url": "https://github.com/julien-c"
+    }
+  ],
+  "dependencies": {
+    "adm-zip": "^0.4.4",
+    "xml2js": "~0.1.0",
+    "zipfile": "^0.5.0"
+  },
+  "description": "Parse ePub electronic book files with Node.JS",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "8f8f9a938154f7461f6bc8e53fb21218156537c1",
+    "tarball": "https://registry.npmjs.org/epub/-/epub-0.1.6.tgz"
+  },
+  "engine": [
+    "node >=0.3.0"
+  ],
+  "gitHead": "d76834112b89cb394aba4bff00f3f60e1926b434",
+  "homepage": "http://github.com/julien-c/epub",
+  "keywords": [
+    "epub",
+    "books"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/julien-c/epub/blob/master/LICENSE"
+    }
+  ],
+  "main": "./epub",
+  "maintainers": [
+    {
+      "name": "andris",
+      "email": "andris@node.ee"
+    },
+    {
+      "name": "julien-c",
+      "email": "chaumond@gmail.com"
+    }
+  ],
+  "name": "epub",
+  "optionalDependencies": {
+    "zipfile": "^0.5.0"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/julien-c/epub.git"
+  },
+  "scripts": {},
+  "version": "0.1.6"
+}

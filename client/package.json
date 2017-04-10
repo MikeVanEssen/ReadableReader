@@ -1,0 +1,51 @@
+{
+  "name": "Readable_Reader",
+  "version": "0.0.1",
+  "description": "DWA Project Readable Reader",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server --inline --host 0.0.0.0"
+  },
+  "keywords": [],
+  "author": "De Madeliefjes",
+  "license": "",
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "chai": "^3.5.0",
+    "react-hot-loader": "^1.3.1",
+    "webdriverio": "^4.6.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "classnames": "^2.2.5",
+    "cookie-parser": "^1.4.3",
+    "dropbox": "^2.5.0",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "firebase": "^3.6.2",
+    "immutability-helper": "^2.0.0",
+    "mongoose": "^4.0.4",
+    "nodemon": "^1.11.0",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-fileupload-progress": "^0.4.0",
+    "react-imageloader": "^2.1.0",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.4.1",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.1.0",
+    "superagent": "^2.3.0",
+    "url-parse": "^1.1.1"
+  }
+}

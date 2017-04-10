@@ -1,0 +1,60 @@
+Wijzigingen api's         07-12-2016 --- Sander Teunissen
+
+
+***********************
+******bookrouters******
+***********************
+
+BOOK API 1: get an array from the parsed epub files:
+  - nothing changed
+
+
+BOOK API 2: get an array of the filenames of all the available ebooks:
+  - url change:     /book/file --> /book/filenames
+  - added error handling for no books found and fail to load books.
+
+
+BOOK API 3: get cover image from specific book:
+  - url change:     /coverImage/:filename --> /book/:filename/coverImage
+
+
+BOOK API 4: get the toc from a book:
+  - nothing changed
+
+
+BOOK API 5: get a chapter from a book:
+  - nothing changed
+
+
+BOOK API 6: get image from book:
+  - nothing changed
+
+
+
+
+  ************************
+  *****settingrouters*****
+  ************************
+
+SETTING API 1: GET ALL SETTINGS
+  - removed: res.status(200);
+  - added error handling
+  - working isn't changed
+
+
+SETTING API 2: Safe the fontsize setting
+  - removed: res.status(200);
+  - added error handling
+  - working isn't changed
+
+
+SETTING API 3: Safe the fonttype setting
+  - removed: res.status(200);
+  - added error handling
+  - working isn't changed
+
+
+SETTING API 4: Safe the theme setting
+  - removed: res.status(200);
+  - added error handling
+  - working isn't changed

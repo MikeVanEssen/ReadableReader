@@ -1,0 +1,12 @@
+1000: path doesn't excist
+
+1001: book not found
+1002: chapter not found
+1003: image not found
+1004: could not load books
+1005: cover not found
+1006: no books found
+
+2000: couldn't get data from database
+2001: couldn't post data to database
+2002: couldn't get user from database
